@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831221552BF1BCCA00FE2981 /* EmployeeInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831221542BF1BCCA00FE2981 /* EmployeeInformationVC.swift */; };
+		831221572BF1BD0700FE2981 /* HumanResourceSolutionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831221562BF1BD0700FE2981 /* HumanResourceSolutionsVC.swift */; };
+		831221592BF1BD3A00FE2981 /* EmployerInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831221582BF1BD3A00FE2981 /* EmployerInformationVC.swift */; };
+		8312215B2BF1BD7400FE2981 /* NewHireSafetyOrientationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312215A2BF1BD7400FE2981 /* NewHireSafetyOrientationVC.swift */; };
+		8312215D2BF1BDA000FE2981 /* EmploymentEligibilityVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312215C2BF1BDA000FE2981 /* EmploymentEligibilityVerificationVC.swift */; };
+		8312215F2BF1BDE500FE2981 /* EmployeesWithholdingCertificateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312215E2BF1BDE500FE2981 /* EmployeesWithholdingCertificateVC.swift */; };
+		831885692BF60002009B69A8 /* SaveDataToICloudAndShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831885682BF60002009B69A8 /* SaveDataToICloudAndShareSheet.swift */; };
+		831885722BF60C28009B69A8 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 831885712BF60C28009B69A8 /* Helper.m */; };
+		831885742BF60CF0009B69A8 /* Extensions+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831885732BF60CEF009B69A8 /* Extensions+UserDefaults.swift */; };
+		831885762BF60D3F009B69A8 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831885752BF60D3F009B69A8 /* AlertHelper.swift */; };
+		831885782BF615A1009B69A8 /* SignatureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831885772BF615A1009B69A8 /* SignatureVC.swift */; };
+		8318857F2BF615F2009B69A8 /* EPSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831885792BF615F2009B69A8 /* EPSignatureViewController.swift */; };
+		831885802BF615F2009B69A8 /* LegacySignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318857A2BF615F2009B69A8 /* LegacySignatureView.swift */; };
+		831885812BF615F2009B69A8 /* PencilKitSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318857B2BF615F2009B69A8 /* PencilKitSignatureView.swift */; };
+		831885822BF615F2009B69A8 /* SwiftSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318857C2BF615F2009B69A8 /* SwiftSignatureView.swift */; };
+		831885832BF615F2009B69A8 /* SwiftSignatureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318857D2BF615F2009B69A8 /* SwiftSignatureViewDelegate.swift */; };
+		8345CE642BEB29C4005B9904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CE632BEB29C4005B9904 /* AppDelegate.swift */; };
+		8345CE662BEB29C4005B9904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CE652BEB29C4005B9904 /* SceneDelegate.swift */; };
+		8345CE6B2BEB29C4005B9904 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8345CE6A2BEB29C4005B9904 /* Base */; };
+		8345CE6D2BEB29C6005B9904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8345CE6C2BEB29C6005B9904 /* Assets.xcassets */; };
+		8345CE702BEB29C6005B9904 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8345CE6F2BEB29C6005B9904 /* Base */; };
+		8345CE7B2BEB29C6005B9904 /* New_HiresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CE7A2BEB29C6005B9904 /* New_HiresTests.swift */; };
+		8345CE852BEB29C6005B9904 /* New_HiresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CE842BEB29C6005B9904 /* New_HiresUITests.swift */; };
+		8345CE872BEB29C6005B9904 /* New_HiresUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CE862BEB29C6005B9904 /* New_HiresUITestsLaunchTests.swift */; };
+		83716DE32C0DAD0800258689 /* CompanyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83716DE22C0DAD0800258689 /* CompanyPolicyVC.swift */; };
+		83716DE52C0DADBB00258689 /* DirectDepositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83716DE42C0DADBB00258689 /* DirectDepositVC.swift */; };
+		838CAAD22BF5EA9800698203 /* MyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CAAD12BF5EA9800698203 /* MyHelper.swift */; };
+		838CAAD42BF5EBBC00698203 /* KeysPermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CAAD32BF5EBBC00698203 /* KeysPermit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8345CE772BEB29C6005B9904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8345CE582BEB29C4005B9904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8345CE5F2BEB29C4005B9904;
+			remoteInfo = "New Hires";
+		};
+		8345CE812BEB29C6005B9904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8345CE582BEB29C4005B9904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8345CE5F2BEB29C4005B9904;
+			remoteInfo = "New Hires";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		831221542BF1BCCA00FE2981 /* EmployeeInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInformationVC.swift; sourceTree = "<group>"; };
+		831221562BF1BD0700FE2981 /* HumanResourceSolutionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanResourceSolutionsVC.swift; sourceTree = "<group>"; };
+		831221582BF1BD3A00FE2981 /* EmployerInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerInformationVC.swift; sourceTree = "<group>"; };
+		8312215A2BF1BD7400FE2981 /* NewHireSafetyOrientationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHireSafetyOrientationVC.swift; sourceTree = "<group>"; };
+		8312215C2BF1BDA000FE2981 /* EmploymentEligibilityVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentEligibilityVerificationVC.swift; sourceTree = "<group>"; };
+		8312215E2BF1BDE500FE2981 /* EmployeesWithholdingCertificateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesWithholdingCertificateVC.swift; sourceTree = "<group>"; };
+		831885682BF60002009B69A8 /* SaveDataToICloudAndShareSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveDataToICloudAndShareSheet.swift; sourceTree = "<group>"; };
+		8318856C2BF60288009B69A8 /* New Hires.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "New Hires.entitlements"; sourceTree = "<group>"; };
+		8318856D2BF60479009B69A8 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		831885702BF60C28009B69A8 /* New Hires-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New Hires-Bridging-Header.h"; sourceTree = "<group>"; };
+		831885712BF60C28009B69A8 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		831885732BF60CEF009B69A8 /* Extensions+UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UserDefaults.swift"; sourceTree = "<group>"; };
+		831885752BF60D3F009B69A8 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		831885772BF615A1009B69A8 /* SignatureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureVC.swift; sourceTree = "<group>"; };
+		831885792BF615F2009B69A8 /* EPSignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPSignatureViewController.swift; sourceTree = "<group>"; };
+		8318857A2BF615F2009B69A8 /* LegacySignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacySignatureView.swift; sourceTree = "<group>"; };
+		8318857B2BF615F2009B69A8 /* PencilKitSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilKitSignatureView.swift; sourceTree = "<group>"; };
+		8318857C2BF615F2009B69A8 /* SwiftSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSignatureView.swift; sourceTree = "<group>"; };
+		8318857D2BF615F2009B69A8 /* SwiftSignatureViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSignatureViewDelegate.swift; sourceTree = "<group>"; };
+		8345CE602BEB29C4005B9904 /* Human Resource Solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Human Resource Solutions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8345CE632BEB29C4005B9904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8345CE652BEB29C4005B9904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8345CE6A2BEB29C4005B9904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8345CE6C2BEB29C6005B9904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8345CE6F2BEB29C6005B9904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8345CE712BEB29C6005B9904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8345CE762BEB29C6005B9904 /* Human Resource SolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Human Resource SolutionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8345CE7A2BEB29C6005B9904 /* New_HiresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_HiresTests.swift; sourceTree = "<group>"; };
+		8345CE802BEB29C6005B9904 /* Human Resource SolutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Human Resource SolutionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8345CE842BEB29C6005B9904 /* New_HiresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_HiresUITests.swift; sourceTree = "<group>"; };
+		8345CE862BEB29C6005B9904 /* New_HiresUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_HiresUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83716DE22C0DAD0800258689 /* CompanyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyPolicyVC.swift; sourceTree = "<group>"; };
+		83716DE42C0DADBB00258689 /* DirectDepositVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectDepositVC.swift; sourceTree = "<group>"; };
+		838CAAD12BF5EA9800698203 /* MyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHelper.swift; sourceTree = "<group>"; };
+		838CAAD32BF5EBBC00698203 /* KeysPermit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysPermit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8345CE5D2BEB29C4005B9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE732BEB29C6005B9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE7D2BEB29C6005B9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831885662BF5EF6A009B69A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8345CE692BEB29C4005B9904 /* Main.storyboard */,
+				8345CE6E2BEB29C6005B9904 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		831885672BF5EF89009B69A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				831885752BF60D3F009B69A8 /* AlertHelper.swift */,
+				831885682BF60002009B69A8 /* SaveDataToICloudAndShareSheet.swift */,
+				838CAAD12BF5EA9800698203 /* MyHelper.swift */,
+				838CAAD32BF5EBBC00698203 /* KeysPermit.swift */,
+				831885732BF60CEF009B69A8 /* Extensions+UserDefaults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8318857E2BF615F2009B69A8 /* EPSignature */ = {
+			isa = PBXGroup;
+			children = (
+				831885792BF615F2009B69A8 /* EPSignatureViewController.swift */,
+				8318857A2BF615F2009B69A8 /* LegacySignatureView.swift */,
+				8318857B2BF615F2009B69A8 /* PencilKitSignatureView.swift */,
+				8318857C2BF615F2009B69A8 /* SwiftSignatureView.swift */,
+				8318857D2BF615F2009B69A8 /* SwiftSignatureViewDelegate.swift */,
+			);
+			path = EPSignature;
+			sourceTree = "<group>";
+		};
+		8345CE572BEB29C4005B9904 = {
+			isa = PBXGroup;
+			children = (
+				8345CE622BEB29C4005B9904 /* New Hires */,
+				8345CE792BEB29C6005B9904 /* New HiresTests */,
+				8345CE832BEB29C6005B9904 /* New HiresUITests */,
+				8345CE612BEB29C4005B9904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8345CE612BEB29C4005B9904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8345CE602BEB29C4005B9904 /* Human Resource Solutions.app */,
+				8345CE762BEB29C6005B9904 /* Human Resource SolutionsTests.xctest */,
+				8345CE802BEB29C6005B9904 /* Human Resource SolutionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8345CE622BEB29C4005B9904 /* New Hires */ = {
+			isa = PBXGroup;
+			children = (
+				8318856C2BF60288009B69A8 /* New Hires.entitlements */,
+				8345CE632BEB29C4005B9904 /* AppDelegate.swift */,
+				8345CE652BEB29C4005B9904 /* SceneDelegate.swift */,
+				8318857E2BF615F2009B69A8 /* EPSignature */,
+				831885672BF5EF89009B69A8 /* Model */,
+				831885662BF5EF6A009B69A8 /* View */,
+				838CAAD52BF5EF1F00698203 /* Controller */,
+				8345CE6C2BEB29C6005B9904 /* Assets.xcassets */,
+				831885702BF60C28009B69A8 /* New Hires-Bridging-Header.h */,
+				8318856D2BF60479009B69A8 /* Helper.h */,
+				831885712BF60C28009B69A8 /* Helper.m */,
+				8345CE712BEB29C6005B9904 /* Info.plist */,
+			);
+			path = "New Hires";
+			sourceTree = "<group>";
+		};
+		8345CE792BEB29C6005B9904 /* New HiresTests */ = {
+			isa = PBXGroup;
+			children = (
+				8345CE7A2BEB29C6005B9904 /* New_HiresTests.swift */,
+			);
+			path = "New HiresTests";
+			sourceTree = "<group>";
+		};
+		8345CE832BEB29C6005B9904 /* New HiresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8345CE842BEB29C6005B9904 /* New_HiresUITests.swift */,
+				8345CE862BEB29C6005B9904 /* New_HiresUITestsLaunchTests.swift */,
+			);
+			path = "New HiresUITests";
+			sourceTree = "<group>";
+		};
+		838CAAD52BF5EF1F00698203 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83716DE42C0DADBB00258689 /* DirectDepositVC.swift */,
+				83716DE22C0DAD0800258689 /* CompanyPolicyVC.swift */,
+				831221582BF1BD3A00FE2981 /* EmployerInformationVC.swift */,
+				831221542BF1BCCA00FE2981 /* EmployeeInformationVC.swift */,
+				8312215E2BF1BDE500FE2981 /* EmployeesWithholdingCertificateVC.swift */,
+				831221562BF1BD0700FE2981 /* HumanResourceSolutionsVC.swift */,
+				8312215A2BF1BD7400FE2981 /* NewHireSafetyOrientationVC.swift */,
+				8312215C2BF1BDA000FE2981 /* EmploymentEligibilityVerificationVC.swift */,
+				831885772BF615A1009B69A8 /* SignatureVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8345CE5F2BEB29C4005B9904 /* Human Resource Solutions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8345CE8A2BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource Solutions" */;
+			buildPhases = (
+				8345CE5C2BEB29C4005B9904 /* Sources */,
+				8345CE5D2BEB29C4005B9904 /* Frameworks */,
+				8345CE5E2BEB29C4005B9904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Human Resource Solutions";
+			productName = "New Hires";
+			productReference = 8345CE602BEB29C4005B9904 /* Human Resource Solutions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8345CE752BEB29C6005B9904 /* Human Resource SolutionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8345CE8D2BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource SolutionsTests" */;
+			buildPhases = (
+				8345CE722BEB29C6005B9904 /* Sources */,
+				8345CE732BEB29C6005B9904 /* Frameworks */,
+				8345CE742BEB29C6005B9904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8345CE782BEB29C6005B9904 /* PBXTargetDependency */,
+			);
+			name = "Human Resource SolutionsTests";
+			productName = "New HiresTests";
+			productReference = 8345CE762BEB29C6005B9904 /* Human Resource SolutionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8345CE7F2BEB29C6005B9904 /* Human Resource SolutionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8345CE902BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource SolutionsUITests" */;
+			buildPhases = (
+				8345CE7C2BEB29C6005B9904 /* Sources */,
+				8345CE7D2BEB29C6005B9904 /* Frameworks */,
+				8345CE7E2BEB29C6005B9904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8345CE822BEB29C6005B9904 /* PBXTargetDependency */,
+			);
+			name = "Human Resource SolutionsUITests";
+			productName = "New HiresUITests";
+			productReference = 8345CE802BEB29C6005B9904 /* Human Resource SolutionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8345CE582BEB29C4005B9904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8345CE5F2BEB29C4005B9904 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					8345CE752BEB29C6005B9904 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8345CE5F2BEB29C4005B9904;
+					};
+					8345CE7F2BEB29C6005B9904 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8345CE5F2BEB29C4005B9904;
+					};
+				};
+			};
+			buildConfigurationList = 8345CE5B2BEB29C4005B9904 /* Build configuration list for PBXProject "Human Resource Solutions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8345CE572BEB29C4005B9904;
+			productRefGroup = 8345CE612BEB29C4005B9904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8345CE5F2BEB29C4005B9904 /* Human Resource Solutions */,
+				8345CE752BEB29C6005B9904 /* Human Resource SolutionsTests */,
+				8345CE7F2BEB29C6005B9904 /* Human Resource SolutionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8345CE5E2BEB29C4005B9904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8345CE6D2BEB29C6005B9904 /* Assets.xcassets in Resources */,
+				8345CE702BEB29C6005B9904 /* Base in Resources */,
+				8345CE6B2BEB29C4005B9904 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE742BEB29C6005B9904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE7E2BEB29C6005B9904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8345CE5C2BEB29C4005B9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831885822BF615F2009B69A8 /* SwiftSignatureView.swift in Sources */,
+				8318857F2BF615F2009B69A8 /* EPSignatureViewController.swift in Sources */,
+				831221572BF1BD0700FE2981 /* HumanResourceSolutionsVC.swift in Sources */,
+				8312215D2BF1BDA000FE2981 /* EmploymentEligibilityVerificationVC.swift in Sources */,
+				83716DE52C0DADBB00258689 /* DirectDepositVC.swift in Sources */,
+				838CAAD42BF5EBBC00698203 /* KeysPermit.swift in Sources */,
+				831221592BF1BD3A00FE2981 /* EmployerInformationVC.swift in Sources */,
+				831885762BF60D3F009B69A8 /* AlertHelper.swift in Sources */,
+				8345CE642BEB29C4005B9904 /* AppDelegate.swift in Sources */,
+				831885832BF615F2009B69A8 /* SwiftSignatureViewDelegate.swift in Sources */,
+				831885812BF615F2009B69A8 /* PencilKitSignatureView.swift in Sources */,
+				831221552BF1BCCA00FE2981 /* EmployeeInformationVC.swift in Sources */,
+				831885802BF615F2009B69A8 /* LegacySignatureView.swift in Sources */,
+				831885692BF60002009B69A8 /* SaveDataToICloudAndShareSheet.swift in Sources */,
+				831885722BF60C28009B69A8 /* Helper.m in Sources */,
+				838CAAD22BF5EA9800698203 /* MyHelper.swift in Sources */,
+				8312215B2BF1BD7400FE2981 /* NewHireSafetyOrientationVC.swift in Sources */,
+				8345CE662BEB29C4005B9904 /* SceneDelegate.swift in Sources */,
+				83716DE32C0DAD0800258689 /* CompanyPolicyVC.swift in Sources */,
+				8312215F2BF1BDE500FE2981 /* EmployeesWithholdingCertificateVC.swift in Sources */,
+				831885742BF60CF0009B69A8 /* Extensions+UserDefaults.swift in Sources */,
+				831885782BF615A1009B69A8 /* SignatureVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE722BEB29C6005B9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8345CE7B2BEB29C6005B9904 /* New_HiresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8345CE7C2BEB29C6005B9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8345CE852BEB29C6005B9904 /* New_HiresUITests.swift in Sources */,
+				8345CE872BEB29C6005B9904 /* New_HiresUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8345CE782BEB29C6005B9904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8345CE5F2BEB29C4005B9904 /* Human Resource Solutions */;
+			targetProxy = 8345CE772BEB29C6005B9904 /* PBXContainerItemProxy */;
+		};
+		8345CE822BEB29C6005B9904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8345CE5F2BEB29C4005B9904 /* Human Resource Solutions */;
+			targetProxy = 8345CE812BEB29C6005B9904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8345CE692BEB29C4005B9904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8345CE6A2BEB29C4005B9904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8345CE6E2BEB29C6005B9904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8345CE6F2BEB29C6005B9904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8345CE882BEB29C6005B9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8345CE892BEB29C6005B9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8345CE8B2BEB29C6005B9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "New Hires/New Hires.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = Z5LBKJP9MP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New Hires/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-Hires";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "New Hires/New Hires-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8345CE8C2BEB29C6005B9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "New Hires/New Hires.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = Z5LBKJP9MP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New Hires/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-Hires";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "New Hires/New Hires-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8345CE8E2BEB29C6005B9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-HiresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human Resource Solutions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Human Resource Solutions";
+			};
+			name = Debug;
+		};
+		8345CE8F2BEB29C6005B9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-HiresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human Resource Solutions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Human Resource Solutions";
+			};
+			name = Release;
+		};
+		8345CE912BEB29C6005B9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-HiresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Hires";
+			};
+			name = Debug;
+		};
+		8345CE922BEB29C6005B9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NewHires.New-HiresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Hires";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8345CE5B2BEB29C4005B9904 /* Build configuration list for PBXProject "Human Resource Solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8345CE882BEB29C6005B9904 /* Debug */,
+				8345CE892BEB29C6005B9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8345CE8A2BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource Solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8345CE8B2BEB29C6005B9904 /* Debug */,
+				8345CE8C2BEB29C6005B9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8345CE8D2BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource SolutionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8345CE8E2BEB29C6005B9904 /* Debug */,
+				8345CE8F2BEB29C6005B9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8345CE902BEB29C6005B9904 /* Build configuration list for PBXNativeTarget "Human Resource SolutionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8345CE912BEB29C6005B9904 /* Debug */,
+				8345CE922BEB29C6005B9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8345CE582BEB29C4005B9904 /* Project object */;
+}
